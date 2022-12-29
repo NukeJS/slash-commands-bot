@@ -1,0 +1,35 @@
+{
+  "name": "slash-commands-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/rest": "^1.5.0",
+    "consola": "^2.15.3",
+    "discord-api-types": "^0.37.25",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fast-glob": "^3.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
